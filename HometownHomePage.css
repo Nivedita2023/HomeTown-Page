@@ -1,0 +1,90 @@
+/*Bihar*/
+body{
+    margin: auto;
+    padding:auto;
+}
+
+#Bihar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: #2A9D8F;
+    background-image: url("Bihar Image.jpeg");
+    background-size: cover;
+    height:500px;
+}
+
+h3 , h5 {
+    text-shadow: 0px 0px 1px black;    
+}
+
+#visitplace {
+    background: #90e0ef;
+    padding: 6px 10px;
+    margin: 200px 0px 8px 0px;
+    border-radius: 8px; 
+}
+
+#greeting {
+    background: #90e0ef;
+    margin: 0px 0px 8px 0px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    }
+
+
+/* touristplace*/
+
+.Touristplace {   
+	display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    text-align: center;
+    background-color: #cbdfbd;   
+}
+
+.alignment{
+    text-align: justify;
+}
+
+.A , .B , .C {
+    Padding: 0px 100px 0px 100px;
+    
+}
+.VishwaShantiStupa{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;       
+}
+
+
+#Heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    background-color: #cbdfbd;
+    margin: 0;
+    padding: 10px;
+    color: #ff0054;
+}
+
+
+/*guidedetail*/
+
+.Img{
+    height: 200px;
+    width: 500px;
+
+}
+.Guidedetail{
+	width: 400px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #00B4D8;
+    color: #FAF9FA;
+    border-bottom: 6px solid #FFFF3F;
+    
+}
